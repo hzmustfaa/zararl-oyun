@@ -34,7 +34,7 @@
     </section>
 
     <section id="youtube-button">
-        <button onclick="openYouTube()">YouTube'u Aç</button>
+        <button onclick="openYouTube()">Zombozo Youtube </button>
     </section>
 
     <footer>
@@ -42,11 +42,7 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-      
-        function openYouTube() {
-            window.open("https://www.youtube.com/@pgmustafaa", "_blank");  
-        }
-    </script>
+    <link rel="youtube-button" href="https://www.youtube.com/@pgmustafaa">
+  
 </body>
 </html>
