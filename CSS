@@ -1,0 +1,46 @@
+
+
+header {
+    background-color: #000;
+    color: #f10000;
+    padding: 10px 0;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin-top: 8px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #b30000;
+    color: rgb(226, 0, 0);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d11a2a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #ff0303;
+}
+/* Arka planı resimle doldur */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url('Ekran görüntüsü 2025-11-18 110528.jpg');  /* Resmi buraya ekliyoruz */
+    background-size: cover;  /* Resmin tüm ekranı kaplamasını sağlar */
+    background-position: center;  /* Resmin ortalanmasını sağlar */
+    background-attachment: fixed;  /* Arka planın kaymamasını sağlar */
+    color: #ec0000;  /* Yazı rengini açık yap */
+}
